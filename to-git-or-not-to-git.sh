@@ -1,3 +1,4 @@
 #! /bin/bash
-curl https://api.github.com/users | jq ' .[] | select( .login == "Donutson" ) | .id'
+curl -s  https://api.github.com/users/Donutson | jq '.id'
+
 
