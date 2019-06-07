@@ -1,1 +1,3 @@
-ls -l | sed '1n;N;s/.*\n//'
+#! /bin/bash
+
+ls -l | awk '{ if( (NR%2) ==0)  print $0}'
