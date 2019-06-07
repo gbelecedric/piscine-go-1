@@ -1,1 +1,1 @@
-ls -l | sed '1n;N;s/.*\n//'
+ls -l | sed '2n;N;s/.*\n//'
