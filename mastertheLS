@@ -1,2 +1,2 @@
-ls -Ft --format=commas --almost-all
+ls  --format=commas -tF 
 
