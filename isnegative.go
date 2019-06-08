@@ -1,10 +1,4 @@
-package main
-
 import "fmt"
-
-func main(){
-
-}
 
 func IsNegative(nb int){
 	if nb < 0{
