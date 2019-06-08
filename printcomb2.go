@@ -10,6 +10,6 @@ func PrintComb2() {
 			}
 		}
 	}
-	fmt.Printf("98 99")
+	fmt.Printf("98 99\n")
 				
 }
