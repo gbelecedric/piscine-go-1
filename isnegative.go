@@ -1,3 +1,5 @@
+package main
+
 import "fmt"
 
 func IsNegative(nb int){
