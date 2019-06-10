@@ -1,7 +1,6 @@
 package piscine
 
 import (
-	"fmt"
 	"unicode/utf8"
 )
 
