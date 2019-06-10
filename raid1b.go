@@ -1,10 +1,6 @@
-package main
+package piscine
 
 import "fmt"
-
-func main(){
-	Raid1b(1,5)
-}
 
 func Raid1b(x,y int) {
     for i:=0; i < y; i++ {//boucle pour la longueur
