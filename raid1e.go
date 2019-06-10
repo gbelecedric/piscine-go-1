@@ -2,7 +2,7 @@ package piscine
 
 import "fmt"
 
-func Raid1c(x,y int) {
+func Raid1e(x,y int) {
     for i:=0; i < y; i++ {//boucle pour la longueur
         for j:=0; j < x; j++ {//boucle pour la largeur
             if i == 0 {//première ligne
