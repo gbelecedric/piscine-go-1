@@ -1,6 +1,5 @@
 package piscine
 
-
 func StrLen(str string) int{
-	return len(str)
+	return len(str)-1
 }
