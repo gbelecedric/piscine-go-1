@@ -1,9 +1,14 @@
 package piscine
 
+import "math"
+
 func FindNextPrime(nb int)int{
 	nextprime:=nb-1
 	i:=nb+1
 	for i>nb{
+		if nextprime>math.MaxInt32{
+			return nextprime
+		}
 		nextprime++
 		if premier(nextprime){
 			return nextprime
