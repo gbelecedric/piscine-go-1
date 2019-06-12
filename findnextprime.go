@@ -1,9 +1,11 @@
 package piscine
 
 func FindNextPrime(nb int)int{
-	for i:=nb+1;_;i++{
-		if premier(i){
-			return i
+	nextprime=nb
+	for i>nb{
+		nextprime++
+		if premier(nextprime){
+			return nextprime
 		}
 		i++	
 	}
