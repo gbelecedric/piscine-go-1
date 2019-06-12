@@ -1,4 +1,4 @@
-package displaya
+package student
 
 import "fmt"
 
