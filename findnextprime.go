@@ -6,9 +6,6 @@ func FindNextPrime(nb int)int{
 	nextprime:=nb-1
 	i:=nb+1
 	for i>nb{
-		if nextprime>math.MaxInt32{
-			return nextprime
-		}
 		nextprime++
 		if premier(nextprime){
 			return nextprime
@@ -24,7 +21,7 @@ func premier(nb int) bool{
 	if nb<=1{
 		return false
 	}
-	for i:=2;i<nb;i++{
+	for i:=2;i<int(math.Round(math.Sqrt(float64(nb))));i++{
 		if nb%i==0{
 			decision=false
 		}
