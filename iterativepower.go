@@ -16,6 +16,7 @@ func IterativePower(nb,power int) int{
 		}
 		return result
 	}
+	return 0
 }
 
 
