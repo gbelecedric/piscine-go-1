@@ -10,7 +10,7 @@ func FindNextPrime(nb int)int{
 		}
 		i++	
 	}
-
+	return nextprime
 }
 
 
