@@ -1,7 +1,7 @@
-package piscine
+package displaya
 
 import "fmt"
 
-func main(){
-	fmt.Println(9876543210)
+func Displaya(s string){
+	fmt.Println("a")
 }
