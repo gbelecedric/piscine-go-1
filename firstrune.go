@@ -1,7 +1,8 @@
 package piscine
 
-import "fmt"
+import"unicode/utf8"
 
 func FirstRune(s string) rune{
-	return s[0]
+	ss,_:=utf8.DecodeRune([]byte(s))
+	return ss
 }
