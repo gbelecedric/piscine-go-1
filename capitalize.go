@@ -1,7 +1,5 @@
 package piscine
 
-import "strings"
-
 func Capitalize(s string) string{
 	cbs:=[]rune(s)
 	for i,_:=range cbs{
