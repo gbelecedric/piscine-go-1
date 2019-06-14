@@ -1,12 +1,13 @@
+
 package piscine
 
-func IsPrintable(str string) bool{
-	cbstr:=[]rune(str)
-	for i,_:=range cbstr{	
-		if !(cbstr[i]>=65 && cbstr[i]<=90){
+import "unicode"
+
+func IsPrintable(str string) bool {
+	for _, res := range str {
+		if !unicode.IsPrint(res) {
 			return false
 		}
 	}
-	
 	return true
 }
