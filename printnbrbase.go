@@ -17,7 +17,7 @@ func PrintNbrBase(n int,base string){//convertir un int dans une base et retourn
 			num,_:=strconv.Atoi(string(val))
 			str=Concat(str,string(base[num]))
 		}
-		fmt.Println(str)
+		fmt.Print(str)
 	}
 }
 
