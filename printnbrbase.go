@@ -3,7 +3,7 @@ package piscine
 import "fmt"
 import "strconv"
 
-func PrintNbrbase(n int,base string){//convertir un int dans une base et retourne le string de celui-ci
+func PrintNbrBase(n int,base string){//convertir un int dans une base et retourne le string de celui-ci
 	if len(base)<2 || !uniquealphaandnosigne(base){
 		fmt.Println("NV")	
 	}else{
