@@ -5,7 +5,7 @@ import "strconv"
 
 func PrintNbrBase(n int,base string){//convertir un int dans une base et retourne le string de celui-ci
 	if len(base)<2 || !uniquealphaandnosigne(base){
-		fmt.Println("NV")	
+		fmt.Print("NV")	
 	}else{
 		str:=""
 		if n<0{
