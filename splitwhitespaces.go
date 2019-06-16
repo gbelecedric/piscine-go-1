@@ -1,6 +1,6 @@
 package piscine
 
-func SplitWhitSpaces(str string) []string{
+func SplitWhiteSpaces(str string) []string{
 	str=Concat(str," ")
 	var result []string
 	word:=""
