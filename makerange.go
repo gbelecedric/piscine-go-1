@@ -1,8 +1,4 @@
-package main
-import "fmt"
-func main(){
-	fmt.Println(MakeRange(14,10))
-}
+package piscine
 
 func MakeRange(min, max int) []int{
 	if max<=min{
